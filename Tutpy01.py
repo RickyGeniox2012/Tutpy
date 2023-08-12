@@ -1,8 +1,11 @@
 # Tutpy01
-# First tutorial. Using variables.
+# First tutorial. Using variables and print()
 
 name="Ricky"
 surname="Genio"
+full_name=name+" "+surname
+age=10
+height=140
 print (name)
 # Output:
 #  Ricky
@@ -24,3 +27,17 @@ print ("Surname: {}". format(surname))
 print (f"Name: {name}, Surname: {surname}")
 # Output:
 #  Name: Ricky, Surname: Genio
+
+print ("Your name is %s, and your surname is %s" % (name, surname))
+# Output:
+# Your name is Ricky,
+# and your surname is Genio
+
+print ("Your height is: "+str(height)+"cm")
+# Output:
+# Your height is: 140cm
+
+kid = True
+print ("Are you a kid: "+str(kid))
+# Output:
+# Are you a kid: True
