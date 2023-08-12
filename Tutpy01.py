@@ -4,10 +4,23 @@
 name="Ricky"
 surname="Genio"
 print (name)
-# Output: Ricky
+# Output:
+#  Ricky
 
 print (name+" "+surname)
-#Output: Ricky Genio
+# Output:
+#  Ricky Genio
 
 print ("Name and Surname: " + name + " " + surname)
-# Output: Name and Surname: Ricky Genio
+# Output:
+#  Name and Surname: Ricky Genio
+
+print ("Name: {}" .format(name))
+print ("Surname: {}". format(surname))
+# Output:
+# Name: Ricky
+# Surname: Genio
+
+print (f"Name: {name}, Surname: {surname}")
+# Output:
+#  Name: Ricky, Surname: Genio
